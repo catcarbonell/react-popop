@@ -28,10 +28,10 @@ class PopopContainer extends React.Component {
                 <Router>
                     <PopopModal show={this.state.show} handleClose={this.hideModal}>
                         <Switch>
-                            <Route path='/' component={About}>
+                            <Route path='/about' component={About}>
                                 <About/>
                             </Route>
-                            <Route path='/' compoenent={Documentation}>
+                            <Route path='/documentation' compoenent={Documentation}>
                                 <Documentation/>
                             </Route>
                         </Switch>
