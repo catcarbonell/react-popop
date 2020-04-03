@@ -5,7 +5,6 @@ import PopopContainer from '../src/components/PopopContainer/'
 function App() {
   return (
     <div className="App">
-        <h1>Popop React!</h1>
         <PopopContainer />
     </div>
   );

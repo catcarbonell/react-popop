@@ -25,7 +25,7 @@ class PopopContainer extends React.Component {
     render() {
         return(                                                        
             <div className="PopopContainer">
-                <h1>Popop <span className="ReactSpan">React!</span></h1>
+                <h1>Popop <span className="ReactSpan">React</span> !</h1>
                 <Router>
                     <PopopModal show={this.state.show} handleClose={this.hideModal}>
                         <Switch>
@@ -37,8 +37,9 @@ class PopopContainer extends React.Component {
                             </Route>
                         </Switch>
                     </PopopModal>  
-                    <Link to='/about'><button onClick={this.showModal}>About</button></Link>
-                    <Link to='/documentation'><button onClick={this.showModal}>Documentation</button></Link>
+                    <Link to='/about'><button onClick={this.showModal}>Get Started!</button></Link>
+                    <Link to='/documentation'><button  onClick={this.showModal}>Documentation</button></Link>
+                    <button><a className="container-link" href="http://github.com/catcarbonell/react-popop" target="_blank">View on GitHub</a></button>
                 </Router> 
             </div>
         );
